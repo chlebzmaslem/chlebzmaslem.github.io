@@ -1,0 +1,59 @@
+/*
+Das ist ein Kommentar
+selektor{
+    eigenschaft (property): wert (value);
+}
+*/
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(255, 143, 246);
+}
+
+p {
+  color: beige;
+}
+
+body {
+  background-color: green;
+  font-family: calibri, Helvetica, sans-serif;
+}
+
+a {
+  background-color: black;
+
+  color: white;
+
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  border: white 1px solid;
+}
+
+/* :hover ist Pseudo_Selector und gilt nur wenn mit der Maus druber fahren*/
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+/* Eine ID in HTML wird zu einer # in Css*/
+#zwei {
+  background-color: brown;
+}
+
+/*Eine classe in HTML wird zu einem Punkt (.)*/
+.yellow {
+  font-weight: bold;
+  color: yellowgreen;
+  background-color: black;
+}
+.halbe-breite {
+  width: 500px;
+  padding: 10px;
+}
+
+.blauer-rand {
+  border: blue 2px solid;
+}
